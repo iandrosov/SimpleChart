@@ -1,0 +1,29 @@
+<META http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<HTML><BODY>
+<CENTER><H1>Welcome To The Home Page For The <i>SimpleChart</i> Package.</H1></CENTER>
+<CENTER><H2>Demo for implimenting Charts in WM Integration Server.</H2></CENTER>
+<BR>
+<P>This sample package is created by Igor Androsov for purpose of demonstrating the creation of
+chart images from Integration Server. This package includes a simple chart creation service to
+build bar, line and area charts. These examples only a subset of charts that are available with JFFreeChart Java package.
+The chart generation code is based on Open Source free Java chart package
+JFreeChart Version 1.0.1, more information on this package and latest updates can be obtained at
+website: www.jfree.org/jfreechart.
+SimpleChart package includes a copy of JFreeChart in form of jar files distributed with IS package.
+</P>
+
+<BR>
+<a href="demo_bar_chart.dsp"><B>Demo Bar Chart</B></a>
+<BR>
+<a href="demo_line_chart.dsp"><B>Demo Line Chart</B></a>
+<BR>
+<a href="demo_area_chart.dsp"><B>Demo Area Chart</B></a>
+<BR>
+<P>NOTE: If you are runing this package on Integration Server deployed on
+UNIX and do not have X11 or Display environment set, in this case additional
+configurations will be required to display charts graphics.
+User must iether configure UNIX Display environment settings or configure
+Integration Server JVM to use alternative methods to generate chart images.
+Use JVM 1.4 parameter: -Djava.awt.headless=true to generate chart images in UNIX/Linux system.
+</P>
+</BODY></HTML>
